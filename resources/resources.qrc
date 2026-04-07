@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <!-- 预留资源入口，后续可添加图标、样式表文件等 -->
+    </qresource>
+</RCC>

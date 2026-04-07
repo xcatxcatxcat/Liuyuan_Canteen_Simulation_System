@@ -1,0 +1,40 @@
+# 留园食堂就餐仿真系统 - Git 忽略规则
+
+# 构建产物
+bin/
+build/
+*.o
+*.obj
+*.pdb
+*.ilk
+*.lib
+*.exp
+
+# Qt 生成文件
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+Makefile*
+*.pro.user
+*.pro.user.*
+
+# IDE 文件
+.vs/
+.vscode/
+*.suo
+*.sln
+*.vcxproj*
+*.qtvscr
+CMakeLists.txt.user
+
+# 数据文件
+data/*.json
+data/*.csv
+!data/.gitkeep
+
+# OS 文件
+Thumbs.db
+.DS_Store
+
+# 腾讯openclaw 文件
+.workbuddy/
